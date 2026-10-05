@@ -1,8 +1,14 @@
 # S.B Growth Characterization
 
-MATLAB analysis of growth measurements across sugar sources, oxygen conditions, and temperatures, developed during research in Nanhao's lab in 2023.
+Growth experiments and MATLAB analysis across sugar sources, oxygen conditions, and temperatures, completed during research in Nan Hao's lab in 2023.
 
 This work documents baseline growth characterization within a broader fructose-uptake project. The available experiments measure optical density (OD) over time; they do not directly measure fructose transport or demonstrate enhanced uptake.
+
+## My contribution
+
+- Prepared culture media, cultured cells, and collected OD measurements for growth experiments.
+- Used MATLAB to read the experimental workbook, calculate means and standard deviations, and visualize growth across experimental conditions.
+- Performed cloning, transformation, and sequencing sample submission as part of the broader project. Construct designs and sequence-validation results are outside the scope of this repository.
 
 ## Experimental comparisons
 
@@ -17,11 +23,19 @@ Each condition has two measurement columns. Scripts calculate their mean and sam
 
 The abbreviations S.B and B.Y are retained from the original records. Full strain identities, replicate type, medium composition, and the method used to establish oxygen conditions are not documented in these files.
 
-## Example figure
+## Selected figures
+
+### Temperature comparison
 
 ![Recorded S.B growth at 30 and 37 degrees Celsius in glucose](figures/WT_S.B_growth_curve_plot_temp.png)
 
 Original saved temperature-comparison figure. Recorded OD is higher at 30°C than at 37°C at later measured times. This is a descriptive observation from the recorded experiment, without a significance test.
+
+### Oxygen-condition comparison
+
+![Recorded S.B glucose and fructose growth across oxygen-condition experiments](figures/WT_S.B_growth_curve_oxygen_stress_comparison.png)
+
+Original saved comparison of glucose and fructose growth curves. The two oxygen-condition experiments were recorded on different dates with different sampling times; the figure is a descriptive comparison rather than an isolated estimate of an oxygen effect.
 
 ## Files
 
